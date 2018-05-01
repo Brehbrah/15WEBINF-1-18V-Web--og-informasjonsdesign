@@ -11,35 +11,111 @@
         crossorigin="anonymous">
 
     <title>Oppgave 5</title>
+
+    <style>
+      /* Make the image fully responsive */
+    
+      .carousel-inner img {
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+    
 </head>
 
 <body>
-   
 
-<div class="pos-f-t">
-  <div class="collapse" id="navbarToggleExternalContent">
-    <div class="bg-dark p-4">
-      <h4 class="text-white">
-        <nav class="navbar  navbar-expand-sm" style="background-color: black;">
-            <div class="container"></div>
-            <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#">Home</a>
-                <a class="nav-item nav-link" href="#">Mission</a>
-                <a class="nav-item nav-link" href="#">Services</a>
-                <a class="nav-item nav-link disabled" href="#">Staff</a>
-                <a class="nav-item nav-link" href="#">Testimonials</a>
-            </div>
-            </div>
-        </nav>
-      </h4>
+  <nav class="navbar navbar-dark bg-dark navbar-expand-sm fixed-top">
+    <div class="container">
+  
+      <a href="#" class="navbar-brand">Wisdom Pet Medicine</a>
+  
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="myTogglerNav">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#">Home</a>
+          <a class="nav-item nav-link" href="#">Oppskrifter</a>
+          <a class="nav-item nav-link" href="#">Budsjett</a>
+          <a class="nav-item nav-link" href="#">Metoder</a>
+          <a class="nav-item nav-link" href="#">Om Oss</a>
+        </div>
+        <!-- navbar -->
+      </div>
+      <!--collapse-->
     </div>
-  </div>
-  <nav class="navbar navbar-dark bg-dark">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+    <!-- container -->
   </nav>
-</div>
+  <!-- nav -->
+  <div class="jumbotron">
+    <div class="container col-xl-7">
+    
+      <div id="demo" class="carousel slide" data-ride="carousel">
+    
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+    
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/chowMein.jpg" alt="Los Angeles" width="1100" height="500">
+            <div class="carousel-caption">
+              <h3>Stekt Wok Nudler</h3>
+              <p>Yum! </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/chopsuey.jpg" alt="Chicago" width="1100" height="500">
+            <div class="carousel-caption">
+              <h3>Los Angeles</h3>
+              <p>We had such a great time in LA!</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/kyllingcashew.jpg" alt="New York" width="1100" height="500">
+            <div class="carousel-caption">
+              <h3>Los Angeles</h3>
+              <p>We had such a great time in LA!</p>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12" style="text-align:center; background-color: grey;">
+        <h4>Sulten?</h4>
+        <p>Det er ikke noe stress, og vi skjønner at det kan være plagsomt</p>
+      </div>
+      <div class="col-sm-4">col-sm-4</div>
+    </div><!--Container-->
+
+  </div><!--JumboTron-->
+  
+
+
+
+
+  
+
+
+
+
 
     <script src="js/jquery.slim.min.js"></script>
     <script src="js/popper.min.js"></script>
