@@ -124,3 +124,9 @@ footer {
 .rightcontainer {
     padding-left: 10%;
 }
+
+.tall {
+    padding-top: 40px;
+    padding-left: 125px;
+    float: left;
+}
