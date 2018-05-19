@@ -65,7 +65,6 @@ color: #99CC99;
     margin: 0 auto 12px auto;
 }
 
-.border {
-    height: 400px;
-    width: 400px;
+.card-text {
+    text-align: center;
 }

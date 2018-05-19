@@ -8,6 +8,21 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Oppskrift | Oppgave 5!</title>
+    <style>
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 550px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+    background-color: #f1f1f1;
+    height: 100%;
+    }
+    
+    /* On small screens, set height to 'auto' for the grid */
+    @media screen and (max-width: 767px) {
+    .row.content {height: auto;}
+    }
+    </style>
   </head>
   <body>
     <!-- Required meta tags -->
@@ -46,29 +61,147 @@
       <!-- container -->
     </nav>
     <!-- nav -->
-    <div class="jumbotron">
-      <div class="container">
-        <h1 class="section-heading">Oppskrift<h1>
-        <div class="row">
-          <div class ="col-sm-4 col-md-4 col-lg-4 col-xl-4 bg-warning" style="border">
-            <img src="img/chopsuey.jpg" alt="chopsuey" class="rounded">
+    <!-- Page Content -->
+    <div class="container" style="padding-top:50px; padding-bottom:50px;">
+      <h1 class="section-heading"><img class="samyang" src="img/samyang.png" alt="samyang"></h1>
+      <h4 style="text-align:center; padding-bottom:50px; color:rgb(141,65,20);">🌶 Super Sterk 🌶</h4>
+      <div class="row">
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <a href="#"><img class="card-img-top" src="img/samyangspicy.jpg" alt="samyang Nudler"></a>
+          <div class="card-body">
+            <p class="card-text">🔥🔥 SUPER HOT 🕒 5 min &nbsp 💰 20 kr</p>
+            <h4 class="card-title">
+            <a href="#">Spicy Roasted Chicken Ramen</a>
+            </h4>
+            
           </div>
-          <div class ="col-sm-4 col-md-4 col-lg-4 col-xl-4 bg-success">
-            <img src="img/chopsuey.jpg" alt="chopsuey" class="rounded">
+        </div>
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <a href="#"><img class="card-img-top" src="img/samyangspicy2.jpg" style="height:280px;" alt="samyang 2x"></a>
+          <div class="card-body">
+            <p class="card-text">🔥🔥🔥🔥 ULTRA HOT 🕒 5 min &nbsp 💰 20 kr</p>
+            <h4 class="card-title">
+            <a href="#">Extra Spicy Roasted Chicken Ramen</a>
+            </h4>
           </div>
-          <div class ="col-sm-4 col-md-4 col-lg-4 col-xl-4 bg-danger">
-            <img src="img/chopsuey.jpg" alt="chopsuey" class="rounded">
+        </div>
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <a href="#"><img class="card-img-top" src="img/samyangspicyice.jpg" style="height:280px; alt="samyang ice"></a>
+          <div class="card-body">
+            <p class="card-text">🔥 HOT 🕒 5 min &nbsp 💰 20 kr</p>
+            <h4 class="card-title">
+            <a href="#">ICE Type Buldak Spicy Roasted Hot Chicken Ramen Cold Stir Noodle</a>
+            </h4>
+            <p class="card-text"></p>
           </div>
-          <div class ="col-sm-4 col-md-4 col-lg-4 col-xl-4 bg-info">
-            <img src="img/chopsuey.jpg" alt="chopsuey" class="rounded">
+        </div>
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <a href="#"><img class="card-img-top" src="img/samyangcurry.jpg" style="height:280px; alt="samyang Curry"></a>
+          <div class="card-body">
+            <p class="card-text">🔥🔥 SUPER HOT 🕒 5 min &nbsp 💰 20 kr</p>
+            <h4 class="card-title">
+            <a href="#">Hot chicken Curry Flavor Ramen </a>
+            </h4>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <a href="#"><img class="card-img-top" src="img/samyangcheese.jpg" style="height:280px; alt="samyang Cheese"></a>
+          <div class="card-body">
+            <p class="card-text">🔥🔥 SUPER HOT 🕒 5 min &nbsp 💰 20 kr</p>
+            <h4 class="card-title">
+            <a href="#">Spicy Chicken Roasted Stir Buldak Noodles Cheese Flavor</a>
+            </h4>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <a href="#"><img class="card-img-top" src="img/samyangmala.jpg" style="height:280px; alt="Samyang Mala"></a>
+          <div class="card-body">
+            <p class="card-text">🔥🔥🔥 INSANE HOT 🕒 5 min &nbsp 💰 20 kr</p>
+            <h4 class="card-title">
+            <a href="#">MALA 4x Buldak Bokeum Ramen Spicy Hot Chicken Flavor Ramen</a>
+            </h4>
           </div>
         </div>
       </div>
+      <!-- /.row -->
     </div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
+  </div>
+  <!-- Page Content -->
+  <div class="container" style="padding-top:50px; padding-bottom:50px;">
+    <h1 class="section-subheading"><img class="matlogo" src="img/matLogo.png" alt="samyang">Klassiske Øst Asiatiske Retter</h1>
+    <div class="row">
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <a href="#"><img class="card-img-top" src="img/friedrice.jpg" alt="stekt ris"></a>
+        <div class="card-body">
+          <h4 class="card-title">
+          <a href="#">Den Klassiske Stekt Ris</a>
+          </h4>
+          <p class="card-text"></p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <a href="#"><img class="card-img-top" src="img/chopsuey.jpg" alt="chop suey" style="height:240px;"></a>
+        <div class="card-body">
+          <h4 class="card-title">
+          <a href="#">Den Klassiske Chop Suey</a>
+          </h4>
+          <p class="card-text"></p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <a href="#"><img class="card-img-top" src="img/woknudler.jpg" alt="wok nudler" style="height:240px;"></a>
+        <div class="card-body">
+          <h4 class="card-title">
+          <a href="#">Den Klassiske Wok Nudler</a>
+          </h4>
+          <p class="card-text"></p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <a href="#"><img class="card-img-top" src="img/masaman.jpg" alt="samyang Curry" style="height:240px;"></a>
+        <div class="card-body">
+          <h4 class="card-title">
+          <a href="#">Masaman Thai Curry </a>
+          </h4>
+          <p class="card-text"></p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <a href="#"><img class="card-img-top" src="img/greencurry.jpg" alt="Gren Curry" style="height:240px;"></a>
+        <div class="card-body">
+          <h4 class="card-title">
+          <a href="#">Kaeng Khiao Wan Green Curry</a>
+          </h4>
+          <p class="card-text"></p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <a href="#"><img class="card-img-top" src="img/redcurry.jpg" alt="red curry" style="height:240px;></a>
+        <div class="card-body">
+          <h4 class="card-title">
+          <a href="#">Kaeng Phet Red Curry</a>
+          </h4>
+          <p class="card-text"></p>
+        </div>
+      </div>
+    </div>
+    <!-- /.row -->
+  </div>
+</div>
+</div>
+<footer>
+<div class="container">
+  <span class="text-muted">
+    <a href="https://www.usn.no/stud-ier/finn-studier/kunst-design-og-musikk/arstudium-i-digital-mediedesign/">Dette er en hjemmeeksame for USN - Digital Mediedesign</a>
+  </span>
+</div>
+<!--Container-->
+</footer>
+<!--Footer-->
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
 </html>
