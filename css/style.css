@@ -18,10 +18,12 @@ footer {
 
 .bakgrunn {
     z-index: 4;
-    height: 480px;
-    background: #FFFFFF url(../img/nudler2.jpg) no-repeat center bottom;
+    height: 400px;
+    width:  900px;
+    background: #FFFFFF url(../img/knife.jpg) no-repeat center bottom;
     background-size: cover;  
     background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 .card-title {
@@ -39,6 +41,9 @@ color: #99CC99;
     width: 200px;
 }
 
+.matlogo {
+    width: 100px;
+}
 .section-heading {
     text-align:center;
     font-size: 48px;
@@ -49,4 +54,18 @@ color: #99CC99;
     border-bottom: 1px solid #333333;
     text-align: center;
     margin: 0 auto 12px auto;
+}
+
+.section-subheading {
+    text-align:center;
+    font-size: 50px;
+    padding-bottom: 30px;
+    width: 390px;   
+    text-align: center;
+    margin: 0 auto 12px auto;
+}
+
+.border {
+    height: 400px;
+    width: 400px;
 }
