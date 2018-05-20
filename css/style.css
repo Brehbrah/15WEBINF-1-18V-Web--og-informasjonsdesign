@@ -16,15 +16,6 @@ footer {
     float: left;
 }
 
-.bakgrunn {
-    z-index: 4;
-    height: 400px;
-    width:  900px;
-    background: #FFFFFF url(../img/knife.jpg) no-repeat center bottom;
-    background-size: cover;  
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-}
 
 .card-title {
     text-align: center;
@@ -32,6 +23,7 @@ footer {
 
 a {
     color: black;
+    text-decoration: none !important;
 }
 a:hover {
 color: #99CC99;
@@ -67,4 +59,25 @@ color: #99CC99;
 
 .card-text {
     text-align: center;
+    font-size: 15px;
+    color: grey;
+}
+
+.breadcrumb {
+     background:  rgba(242, 242, 242, 0);
+     border: 0px solid rgba(245, 245, 245, 1); 
+     border-radius: 4px; 
+  
+ }
+.breadcrumb li {
+    size: 25px;
+}
+.breadcrumb a {
+    color: grey;
+}
+.breadcrumb a:hover {
+    color: green;
+}
+.breadcrumb>.active {
+    color: rgba(153, 153, 153, 1);
 }
