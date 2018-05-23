@@ -36,76 +36,81 @@
     <!-- nav -->
     <div class="container">
       <div class="row" style="padding-top:40px;">
-        <!-- Page Content -->
         <div class="container-fluid">
-          <div class="jumbotron">
+          <div class="col-lg-12">
+            <h2 class="my-4">&nbsp;</h2>
+          </div>
+          <div class="col-lg-12 col-sm-12 text-center mb-4">
+            <img class="img-fluid mx-auto" src="img/meg.jpg" alt="Khoi">
+            <h3>Khoi Nguyen Hoang<br>
+            <small>Informatikk Student</small>
+            </h3>
             <div class="col-lg-12">
-              <h1>Studentmat </h1>
               <p>Dette er en fiktiv hjemmeside hjemmeprosjektet for 15WEBINF-1 18V Web- og informasjonsdesign av Khoi Nguyen Hoang student av USN - Universitet i Sørøst-Norge. Har du noen spørsmål, kan du vennligst gi beskjed ved å bruke kontakt form under</p>
-              <form id="contact-form" method="post" action="contact.php" role="form">
-                <div class="messages"></div>
-                <div class="controls">
-                  <div class="row">
-                    <div class="col-md-6">
-                      <div class="form-group">
-                        <label for="form_name"><b>Fornavn</b> </label>
-                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Fornavn" required="required" data-error="Krever å ha fornavn.">
-                        <div class="help-block with-errors"></div>
+              <div class="jumbotron">
+                <form id="contact-form" method="post" action="contact.php" role="form">
+                  <div class="messages"></div>
+                  <div class="controls">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="form_name"><b>Fornavn</b></label>
+                          <input id="form_name" type="text" name="name" class="form-control" placeholder="Fornavn" required="required" data-error="Krever å ha fornavn.">
+                          <div class="help-block with-errors"></div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="form_lastname"><b>Etternavn *</b></label>
+                          <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Etternavn" required="required" data-error="Lastname is required.">
+                          <div class="help-block with-errors"></div>
+                        </div>
                       </div>
                     </div>
-                    <div class="col-md-6">
-                      <div class="form-group">
-                        <label for="form_lastname"><b>Etternavn *</b></label>
-                        <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Etternavn" required="required" data-error="Lastname is required.">
-                        <div class="help-block with-errors"></div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="form_email"><b>Epost *</b></label>
+                          <input id="form_email" type="email" name="email" class="form-control" placeholder="Epost" required="required" data-error="Valid email is required.">
+                          <div class="help-block with-errors"></div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="form_phone"><b>Tlf.Nr</b></label>
+                          <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Telefon nummer">
+                          <div class="help-block with-errors"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <label for="form_message"><b>Beskjed *</b></label>
+                          <textarea id="form_message" name="message" class="form-control" placeholder="Gi meg ett beskjed" rows="4" required="required" data-error="Vennligst gi meg en beskjed"></textarea>
+                          <div class="help-block with-errors"></div>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <input type="submit" class="btn btn-success btn-send" onclick="location.href='sendt.html';">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <br>
+                        <p class="text-muted"><strong>*</strong> Krever at du må fylle inn tekst feltet.</p>
                       </div>
                     </div>
                   </div>
-                  <div class="row">
-                    <div class="col-md-6">
-                      <div class="form-group">
-                        <label for="form_email"><b>Epost *</b></label>
-                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Epost" required="required" data-error="Valid email is required.">
-                        <div class="help-block with-errors"></div>
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <div class="form-group">
-                        <label for="form_phone"><b>Tlf.Nr</b></label>
-                        <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Telefon nummer">
-                        <div class="help-block with-errors"></div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-md-12">
-                      <div class="form-group">
-                        <label for="form_message"><b>Beskjed *</b></label>
-                        <textarea id="form_message" name="message" class="form-control" placeholder="Gi meg ett beskjed" rows="4" required="required" data-error="Vennligst gi meg en beskjed"></textarea>
-                        <div class="help-block with-errors"></div>
-                      </div>
-                    </div>
-                    <div class="col-md-12">
-                      <input type="submit" class="btn btn-success btn-send" value="Send ett beskjed">
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-md-12">
-                      <br>
-                      <p class="text-muted"><strong>*</strong> Krever at du må fylle inn tekst feltet.</p>
-                    </div>
-                  </div>
-                </div>
-              </form>
+                </form>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    </form>
-    
     <footer>
-      <div class="container">
+      <div class="container mb-2">
         <span class="text-muted">
           <a class ="footerFarge" href="https://www.usn.no/stud-ier/finn-studier/kunst-design-og-musikk/arstudium-i-digital-mediedesign/">
           Copyright © 2018 | Dette er en hjemmeeksame for USN - Digital Mediedesign | </a>
