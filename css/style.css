@@ -31,6 +31,14 @@ a:hover {
 color: #99CC99;
 }
 
+.footerFarge {
+    color: rgba(255,255,255,.5);
+}
+
+.footerFarge:hover {
+    color: rgba(255,255,255,.75);
+}
+
 .samyang {
     width: 200px;
 }
