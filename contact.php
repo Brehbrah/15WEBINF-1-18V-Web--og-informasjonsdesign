@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="no">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Hovedside | sendt</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark navbar-expand-sm fixed-top">
+      <div class="container">
+        <a class="navbar-brand d-none d-sm-inline-block" href="contact.php">
+          <img src="img/icon2.png" style="width: 40px;" alt="Studenmat Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="myTogglerNav">
+          <a href="index.html" class="navbar-brand">Studentmat</a>
+          <a class="navbar-brand d-none d-sm-inline-block" href="index.html">
+            <img src="img/icon2.png" style="width: 40px;" alt="Studenmat Logo">
+          </a>
+          <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link" href="oppskrift.html">Oppskrifter</a>
+          </div>
+          <!-- navbar -->
+        </div>
+        <!--collapse-->
+      </div>
+      <!-- container -->
+    </nav>
+    <!-- nav -->
+    <div class="container mb-2">
+      <div class="row">
+        <div class="col-12">
+          <img src="img/boble.png" class="img-fluid mx-auto d-block" alt="bobble" style="padding-top: 100px; width:300px;">
+          <img src="img/happycat.gif" class="img-fluid mx-auto d-block" alt="happy cat" style="padding-right: 150px; padding-bottom: 108px;">
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <span class="text-muted">
+          <a class ="footerFarge" href="https://www.usn.no/stud-ier/finn-studier/kunst-design-og-musikk/arstudium-i-digital-mediedesign/">
+          Copyright © 2018 Khoi Nguyen Hoang | Kandidats nummer: 110 | Dette er en hjemmeeksame for USN - Digital Mediedesign | </a>
+          <a class ="footerFarge" href="meg.html">Kontakt meg</a>
+        </span>
+      </div>
+      <!--Container-->
+    </footer>
+    <!--Footer-->
+    
+    
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
